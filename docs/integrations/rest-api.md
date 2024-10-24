@@ -3,8 +3,9 @@ sidebar_position: 1
 ---
 
 # REST API
-
-Alle API IDs (z.B. die Loadpoint ID) beginnen bei `1`.
+:::tip
+Alle API IDs (z.B. die Loadpoint ID) beginnen bei `1` während z.B. `GET /api/state` automatisch ein Array erzeugt, welches mit `0` beginnt.
+:::
 
 ## State
 
